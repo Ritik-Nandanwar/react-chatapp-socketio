@@ -12,7 +12,6 @@ function App() {
 					<Route exact path="/" component={Join} ></Route>
 					<Route exact path="/chat" component={Chat} ></Route>
 				</Switch>
-
 			</Router>
 		</>
 	);
