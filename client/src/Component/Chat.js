@@ -9,7 +9,6 @@ var connectionOptions =  {
   "timeout" : 10000,                  
   "transports" : ["websocket"]
 };
-
 const Chat = ({location}) => {
   const [name , setName] = useState("")
   const [room , setRoom] = useState("")
