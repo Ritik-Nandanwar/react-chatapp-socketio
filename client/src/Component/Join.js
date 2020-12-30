@@ -7,7 +7,7 @@ const Join = () => {
   
   return (
     <div>
-      <div className="container grey lighten-3" style={{justifyContent:"center" , margin: "30% auto" , padding:"5rem"}}>
+      <div className="container grey lighten-3" style={{justifyContent:"center" , margin: "10vh auto" , padding:"5rem" , Height:"100vh" ,width: "50%" , overflow:"hidden !important"}}>
         <form action="">
           <h4 className="green-text">join room</h4>
           <input onChange={(e) => {
